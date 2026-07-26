@@ -1,8 +1,28 @@
 aid: elasticrun
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/elasticrun.png
 name: ElasticRun
-description: 'ElasticRun is a company surfaced as a portfolio company of prosus-ventures, softbank-vision-fund
-  and added to the API Evangelist network as a stub for enrichment. Sector: logistics. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'ElasticRun (legally NTEx Transportation Services Pvt Ltd) is a Pune,
+  India based B2B e-commerce and rural logistics platform founded in 2016 by Sandeep
+  Deshmukh, Saurabh Nigam and Shitiz Bansal. It operates an aggregated, variable-capacity
+  transportation network that stitches together idle logistics capacity to connect
+  FMCG brands and manufacturers to the mom-and-pop kirana stores of rural and semi-urban
+  India. The platform blends mobile technology with local entrepreneurs to run an
+  assisted-commerce model spanning 125,000+ kiranas and 80,000+ villages across 26
+  states, offering last-mile delivery, B2B distribution and supply-chain services.
+  ElasticRun is backed by Prosus Ventures and SoftBank Vision Fund. This profile is
+  a network stub: no public developer API, documentation or SDKs were found during
+  enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/elasticrun/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Logistics
+- E-Commerce
+- Supply Chain
+- B2B
+- Last-Mile Delivery
+- FMCG
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +52,20 @@ maintainers:
 common:
 - type: Website
   url: https://elastic.run
+- type: About
+  url: https://elastic.run/about
+- type: Blog
+  url: https://elastic.run/blog
+- type: CaseStudies
+  url: https://elastic.run/case-studies
+- type: Careers
+  url: https://elastic.run/careers
+- type: PrivacyPolicy
+  url: https://elastic.run/privacy-policy
+- type: DomainSecurity
+  url: security/elasticrun-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
